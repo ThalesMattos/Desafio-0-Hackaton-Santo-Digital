@@ -6,7 +6,7 @@ import java.util.List;
 
 public class Exercicio2 {
 
-    public List<int[]> paresComMenosDiferenca(int[] numerosInteiros){
+    public List<int[]> paresComMenorDiferenca(int[] numerosInteiros){
 
         Arrays.sort(numerosInteiros);
         List<int[]> resultado = new ArrayList<>();
@@ -29,6 +29,6 @@ public class Exercicio2 {
     public static void main(String[] args) {
         Exercicio2 exercicio2 = new Exercicio2();
 
-        System.out.println(exercicio2.paresComMenosDiferenca(new int[]{3, 8, 50, 5, 1, 18, 12}));
+        System.out.println(exercicio2.paresComMenorDiferenca(new int[]{3, 8, 50, 5, 1, 18, 12}));
     }
 }
